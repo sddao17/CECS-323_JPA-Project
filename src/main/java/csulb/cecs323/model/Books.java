@@ -149,11 +149,11 @@ public class Books {
     @Override
     public String toString () {
         return "Book" +
-                "\n\tISBN: " + this.ISBN +
-                "\n\tTitle: " + this.title +
-                "\n\tYear Published: " + this.yearPublished +
-                "\n\tAuthor email: " + this.author.getEmail() +
-                "\n\tPublisher name : " + this.publisher.getName() +
+                "\n  ISBN: " + this.ISBN +
+                "\n  Title: " + this.title +
+                "\n  Year Published: " + this.yearPublished +
+                "\n  Author email: " + this.author.getEmail() +
+                "\n  Publisher name : " + this.publisher.getName() +
                 "\n - " + this.author.toString() +
                 "\n - " + this.publisher.toString();
     } // end of toString()

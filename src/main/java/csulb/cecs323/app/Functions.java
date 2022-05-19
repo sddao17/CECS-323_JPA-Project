@@ -20,12 +20,12 @@ public class Functions {
                 "\n        Welcome to the Database!" +
                 "\n----------------------------------------" +
                 "\nPlease select an option:" +
-                "\n\t1) Add a new object" +
-                "\n\t2) List information about an object" +
-                "\n\t3) Delete a book"  +
-                "\n\t4) Update a book" +
-                "\n\t5) List the primary keys" +
-                "\n\t0) Quit the program" +
+                "\n  1) Add a new object" +
+                "\n  2) List information about an object" +
+                "\n  3) Delete a book"  +
+                "\n  4) Update a book" +
+                "\n  5) List the primary keys" +
+                "\n  0) Quit the program" +
                 "\n >> ");
 
         return checkIntRange(0, 5);
@@ -38,13 +38,13 @@ public class Functions {
     public static int checkAddObjectInput() {
         System.out.print(
                 "\nPlease select an option:" +
-                "\n\t1) Add a new publisher" +
-                "\n\t2) Add a new book" +
-                "\n\t3) Add a new writing group" +
-                "\n\t4) Add a new individual author" +
-                "\n\t5) Add a new ad hoc team" +
-                "\n\t6) Assign an individual author to an ad hoc team" +
-                "\n\t0) Return to main menu" +
+                "\n  1) Add a new publisher" +
+                "\n  2) Add a new book" +
+                "\n  3) Add a new writing group" +
+                "\n  4) Add a new individual author" +
+                "\n  5) Add a new ad hoc team" +
+                "\n  6) Assign an individual author to an ad hoc team" +
+                "\n  0) Return to main menu" +
                 "\n >> ");
 
         return checkIntRange(0, 6);
@@ -57,10 +57,10 @@ public class Functions {
     public static int checkListInformationInput() {
         System.out.print(
                 "\nPlease select an option:" +
-                "\n\t1) List info about a publisher" +
-                "\n\t2) List info about a book" +
-                "\n\t3) List info about a writing group" +
-                "\n\t0) Return to main menu" +
+                "\n  1) List info about a publisher" +
+                "\n  2) List info about a book" +
+                "\n  3) List info about a writing group" +
+                "\n  0) Return to main menu" +
                 "\n >> ");
 
         return checkIntRange(0, 3);
@@ -73,10 +73,10 @@ public class Functions {
     public static int checkPrimaryKeysInput(){
         System.out.print(
                 "List the primary keys of:" +
-                "\n\t1) Publishers" +
-                "\n\t2) Books" +
-                "\n\t3) Authoring Entities" +
-                "\n\t0) Return to main menu" +
+                "\n  1) Publishers" +
+                "\n  2) Books" +
+                "\n  3) Authoring Entities" +
+                "\n  0) Return to main menu" +
                 "\n >> " );
 
         return checkIntRange(0, 3);

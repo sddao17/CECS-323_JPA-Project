@@ -71,7 +71,7 @@ public class WritingGroups extends AuthoringEntities {
     public String toString () {
         return "Authoring Entity: WritingGroup\n" +
                 super.toString() +
-                "\n\tHead Writer: " + this.getHeadWriter() +
-                "\n\tYear Formed: " + this.getYearFormed();
+                "\n  Head Writer: " + this.getHeadWriter() +
+                "\n  Year Formed: " + this.getYearFormed();
     } // end of toString()
 } // end of WritingGroups class

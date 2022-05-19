@@ -10,6 +10,7 @@
           <factory-entry name="cecs323-jpa-CarClub" value="43ddcad3-f401-45ea-8ace-f113453c154c" />
         </datasource-mapping>
         <naming-strategy-map />
+        <deploymentDescriptor name="persistence.xml" url="file://$MODULE_DIR$/src/main/resources/META-INF/persistence.xml" />
       </configuration>
     </facet>
   </component>

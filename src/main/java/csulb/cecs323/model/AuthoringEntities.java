@@ -89,7 +89,7 @@ public abstract class AuthoringEntities {
     /** Override toString */
     @Override
     public String toString () {
-        return "\tEmail: " + this.email +
-                "\n\tName: " + this.name;
+        return "  Email: " + this.email +
+                "\n  Name: " + this.name;
     } // end of toString()
 } // end of AuthoringEntities class

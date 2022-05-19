@@ -1,6 +1,6 @@
 ----------------------------------------------------------------
-Fri Mar 18 22:25:31 PDT 2022:
-Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance a816c00e-017f-a0a3-4ec4-000001581c40 
+Wed May 18 17:45:00 PDT 2022:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance a816c00e-0180-d9c6-6960-000001598420 
 on database directory /Users/stevendd/IdeaProjects/CECS-323_JPA Project/database/BookClub with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@67f89fa3 
 Loaded from file:/Users/stevendd/.m2/repository/org/apache/derby/derby/10.14.2.0/derby-10.14.2.0.jar
 java.vendor=Azul Systems, Inc.
@@ -8,6 +8,6 @@ java.runtime.version=16.0.2+7
 user.dir=/Users/stevendd/IdeaProjects/CECS-323_JPA Project
 os.name=Mac OS X
 os.arch=aarch64
-os.version=12.3
+os.version=12.4
 derby.system.home=null
 Database Class Loader started - derby.database.classpath=''

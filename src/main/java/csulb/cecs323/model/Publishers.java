@@ -126,8 +126,8 @@ public class Publishers {
     @Override
     public String toString() {
         return "Publisher" +
-                "\n\tName: " + name +
-                "\n\tPhone number: " + phone +
-                "\n\tEmail: " + email;
+                "\n  Name: " + name +
+                "\n  Phone number: " + phone +
+                "\n  Email: " + email;
     } // end of toString()
 } // end of Publishers class

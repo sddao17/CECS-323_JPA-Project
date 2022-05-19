@@ -664,7 +664,7 @@ public class BookClub {
                      } else {
                         System.out.println("\nPrimary Keys of Publishers: ");
                         for (Publishers publisher : publishersList) {
-                           System.out.println("\t- Name: " + publisher.getName());
+                           System.out.println("  - Name: " + publisher.getName());
                         }
                      }
                      break;
@@ -679,7 +679,7 @@ public class BookClub {
                      } else {
                         System.out.println("\nPrimary Keys of Books: ");
                         for (Books b: booksList) {
-                           System.out.println("\t- Title: "  + b.getTitle() + "\n\t  ISBN: " + b.getISBN());
+                           System.out.println("  - Title: "  + b.getTitle() + "\n    ISBN: " + b.getISBN());
                         }
                      }
                      break;
@@ -703,7 +703,7 @@ public class BookClub {
                            } else {
                               type = "AdHocTeams";
                            }
-                           System.out.println("\t- Email: " + a.getEmail() + "\n\t  Type: " + type);
+                           System.out.println("  - Email: " + a.getEmail() + "\n    Type: " + type);
                         }
                      }
                      break;

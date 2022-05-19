@@ -53,7 +53,7 @@ public class IndividualAuthors extends AuthoringEntities {
     public String toString() {
         String description = "Authoring Entity: IndividualAuthor\n" +
                 super.toString() +
-                "\n\tTeams: { ";
+                "\n  Teams: { ";
 
         for (int i = 0; i < adHocTeamsList.size(); ++i)
             if (i < adHocTeamsList.size() - 1)

@@ -56,18 +56,18 @@ public class AdHocTeams extends AuthoringEntities {
     /** Returns a description of the ad hoc team. */
     @Override
     public String toString() {
-        String description = "Authoring Entity: AdHocTeams\n" +
+        StringBuilder description = new StringBuilder("Authoring Entity: AdHocTeams\n" +
                 super.toString() +
-                "\n\tMembers: { ";
+                "\n  Members: { ");
 
         for (int i = 0; i < individualAuthorsList.size(); ++i)
             if (i < individualAuthorsList.size() - 1)
-                description += individualAuthorsList.get(i).getName() + ", ";
+                description.append(individualAuthorsList.get(i).getName()).append(", ");
             else
-                description += individualAuthorsList.get(i).getName();
+                description.append(individualAuthorsList.get(i).getName());
 
-        description += " }";
+        description.append(" }");
 
-        return description;
+        return description.toString();
     } // end of toString()
 } // end of AdHocTeams class
